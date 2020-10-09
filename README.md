@@ -1,5 +1,4 @@
 # JUnit Reporter for Mocha 
-[![npm][npm-badge]][npm-listing]
 
 This is fork of https://github.com/michaelleeallen/mocha-junit-reporter for those who want to use `jenkinsClassnamePrefix` option.
 
@@ -194,7 +193,3 @@ output line 2
 | antHostname                    | `process.env.HOSTNAME` | hostname to use when running in `antMode`  will default to environment `HOSTNAME`                                       |
 | jenkinsMode                    | `false`                | if set to truthy value will return xml that will display nice results in Jenkins                                        |
 | jenkinsClassnamePrefix         | `undefined`            | adds a prefix to a classname when running  in `jenkinsMode`                                                             |
-
-[npm-badge]: https://img.shields.io/npm/v/mocha-junit-reporter.svg?maxAge=2592000
-[npm-listing]: https://www.npmjs.com/package/mocha-junit-reporter
-[ant-schema]: http://windyroad.org/dl/Open%20Source/JUnit.xsd
