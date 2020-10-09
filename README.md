@@ -1,9 +1,10 @@
-# JUnit Reporter for Mocha
+# JUnit Reporter for Mocha [+ jenkinsClassnamePrefix patch]
 
 [![Build Status][travis-badge]][travis-build]
 [![npm][npm-badge]][npm-listing]
 
 Produces JUnit-style XML test results.
+This is fork of https://github.com/michaelleeallen/mocha-junit-reporter for those who want to use `jenkinsClassnamePrefix`
 
 ## Installation
 
